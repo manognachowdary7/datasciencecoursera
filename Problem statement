@@ -1,0 +1,10 @@
+Time series is series of data points in which each data point is associated with a timestamp.
+An example is amount of rainfall in different region at different months of year.R uses may functions to create, manipulate,and plot the time series data.
+syntax: the basic syntax used for ts()function in time series analysis is-
+timeseries.object.name<- ts(data,start,end,frequency)
+Parameters used:
+data-a vector or matrix containing the values used in the time series
+start-specifies the start time for the first observation in time series
+end-the end time for last observation in time series
+frequency-the number of observations per unit time
+consider the annual rainfall details at a place starting from January 2019. Create an R time series object for a perios of 12 months and plot it.
